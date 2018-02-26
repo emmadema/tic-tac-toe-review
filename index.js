@@ -1,10 +1,9 @@
 console.log("working");
 
-let gamePlay = document.getElementsByClassName('cell');
-for (let x=0; x > gamePlay.length; x++) {
-	let XO = gamePlay[x];
-	XO.onClick = function(){
-		console.log("test");
-		return true;
-	};
-}
+	let XO = document.getElementsByClassName('cell');
+	for (let i=0; i < XO.length; i++)
+
+
+	.addEventListener('click', function(){
+		console.log("click");
+	});
